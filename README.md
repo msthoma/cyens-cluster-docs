@@ -1,6 +1,14 @@
 # Cluster docs
 
-## Monitoring jobs
+## Running jobs
+
+### Starting jobs
+
+```bash
+sbatch run_script.sh
+```
+
+### Monitoring jobs
 
 ```bash
 squeue
