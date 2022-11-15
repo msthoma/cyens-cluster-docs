@@ -1,10 +1,4 @@
----
-id: 6jcokroc8otqv0gh3ufzoz6
-title: Cluster
-desc: ''
-updated: 1668433769622
-created: 1668433453255
----
+# Cluster docs
 
 ## Monitoring jobs
 
