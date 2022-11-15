@@ -20,6 +20,14 @@ Can also use the following to monitor jobs in real-time:
 watch squeue
 ```
 
+### Job efficiency
+
+After a job finishes, details such as CPU utilisation & efficiency, memory utilisation & efficiency, etc., can be queried with:
+
+```bash
+seff <SLURM_JOB_ID>
+```
+
 ## Getting info about the cluster
 
 The following shows detailed information about all nodes in the cluster:
