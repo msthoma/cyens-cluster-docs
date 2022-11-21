@@ -42,3 +42,13 @@ The following also show info about the nodes in a more condensed form:
 sinfo --Node --long
 sinfo -o "%n %e %m %a %c %C"
 ```
+
+## Storage
+
+### Disk quotas
+
+Home directories (at `/trinity/home/<USER>`) have a disk quota of 20GB. Information about the current state of a user's home directory can be retrieved using:
+
+```bash
+quota -s
+```
